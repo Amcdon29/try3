@@ -45,7 +45,7 @@ namespace Coding_lab_2
             }
             else
             {
-                Console.WriteLine("E is not coprime of M try again");
+                Console.WriteLine("E is not coprime of M tryd again");
             }
         }
 
@@ -74,8 +74,8 @@ namespace Coding_lab_2
 
         static void Main1(string[] args)
         {
-            BigInteger seed = 654321789;
-            BigInteger seed2 = 1234654987;
+            BigInteger seed = BigInteger.Parse(Console.ReadLine());
+            BigInteger seed2 = BigInteger.Parse(Console.ReadLine());
 
             BigInteger xprev1 = seed2;
 
@@ -96,6 +96,9 @@ namespace Coding_lab_2
             }
             Console.WriteLine(xprev);
             Console.WriteLine(xprev1);
+            Console.WriteLine("this is the end of the program");
+            BigInteger LMN = BigInteger.Parse(Console.ReadLine);
+
 
 
         }
